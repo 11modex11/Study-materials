@@ -1,0 +1,33 @@
+body{
+    background-color:  #29b6f6
+
+    ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box {
+    width: 40%;
+    height: 40%;
+    background-color: 	 #bdbd;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    transition: width 0.5s ease-in-out;
+ 
+    
+}
+.box:hover {
+    background-color: #ddd;
+    width: 50%;
+    height: 48;
+}
